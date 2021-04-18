@@ -1,0 +1,91 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+.dark {
+  background: #1d1e20;
+}
+.nav, .foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: calc(720px + 24px * 2);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  line-height: 60px;
+  padding: 24px;
+}
+.nav a {
+  color: rgba(255,255,255,0.8);
+  font-size: 22px;
+  font-weight: 700;
+}
+.foot {
+  display: block;
+  text-align: center;
+}
+.foot a{
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+}
+#buzzlist {
+  position: relative;
+  min-height: calc(100vh - 120px);
+  max-width: calc(720px + 24px * 2);
+  margin: auto;
+  padding: 24px;
+}
+#buzzlist .buzz {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 24px;
+  background: #2e2e33;
+  border-radius: 8px;
+  transition: transform .1s;
+  border: 1px solid #333;
+}
+#buzzlist .buzz .buzz-content p {
+  color: rgba(255,255,255,0.72);
+  margin-bottom: 20px;
+}
+#buzzlist .buzz .buzz-content p a {
+  color: rgba(225,225,225,0.6);
+  text-decoration: underline;
+}
+#buzzlist .buzz .buzz-content img {
+  border-radius: 4px;
+  display: block;
+  max-width: 100%;
+}
+time {
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+}
+ul.pagination {
+  margin: 60px auto;
+}
+ul.pagination li {
+  list-style: none;
+  float: left;
+}
+ul.pagination li.nextpage {
+  list-style: none;
+  float: right;
+}
+ul.pagination li a.page-link {
+  background: #2e2e33;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+ul.pagination li a {
+  color: rgba(255,255,255,0.6);
+  font-size: 12px;
+}

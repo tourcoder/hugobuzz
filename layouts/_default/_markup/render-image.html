@@ -1,0 +1,8 @@
+<!-- layouts/_default/_markup/render-image.html -->
+{{ $img := imageConfig (add "/content" (.Destination | safeURL)) }}
+
+<img
+  src="{{ .Destination | safeURL }}"
+  alt="{{ .Text }}"
+  loading="lazy"
+/>

@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ $paginator := .Paginator}}
+  {{ range $paginator.Pages }}
+    <article class="buzz">
+      <div class="buzz-content">
+        {{.Content}}
+      </div>
+      {{- if not .Date.IsZero -}}
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{- end }}
+    </article>
+  {{ end }}
+  {{- partial "pagination.html" . -}}
+{{ end }}

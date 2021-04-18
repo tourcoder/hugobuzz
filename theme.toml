@@ -1,0 +1,12 @@
+name = "Hugo Buzz"
+license = "MIT"
+licenselink = "https://github.com/tourcoder/hugobuzz/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/tourcoder/hugobuzz"
+tags = ["hugobuzz", "microblog", "twitter"]
+features = ["microblog"]
+min_version = "0.41.0"
+
+[author]
+  name = "Bin HUA"
+  homepage = "https://github.com/tourcoder"

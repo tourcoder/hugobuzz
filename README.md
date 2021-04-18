@@ -21,6 +21,9 @@ or [Online Demo](https://buzz.tourcoder.com).
   ```
   theme = "hugobuzz"
   ```
+### Attention
+
+Put the pictures in your buzz into the `content` folder
 
 ### License
 

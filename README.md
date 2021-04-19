@@ -25,6 +25,10 @@ or [Online Demo](https://buzz.tourcoder.com).
 
 Put the pictures in your buzz into the `content` folder
 
+### Extension
+
+Don't create any taxonomies, e.g. `tags`, `categories`, add `disableKinds = ["taxonomy", "term"]` in `config.toml`
+
 ### License
 
 [MIT](LICENSE)

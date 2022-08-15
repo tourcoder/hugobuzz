@@ -5,8 +5,6 @@ A simple hugo theme for buzz
 
 ![](screenshot.png)
 
-or [Online Demo](https://tourcoder.com/buzz).
-
 ### Installation
 
 - Add the theme to your site's `themes` directory
